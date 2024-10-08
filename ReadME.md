@@ -23,3 +23,5 @@ Une fois les différentes étapes réalisées, retourne dans ton terminal, et ex
 💡 C'est quoi Jest ❓
 
 Un outil JavaScript permettant de tester des unités de code de manière isolée. En l'occurrence, les tests sont écrits dans le fichier `script.test.js`.
+
+Tu peux considérer l'exercice comme étant réussi lorsque tous les tests auront été satisfaits 😄
