@@ -1,6 +1,6 @@
-<h3 align="center">JS Basics - Les variables 😉</h3>
+# <h3 align="center">JS Basics - Les variables 😉</h3>
 
-# Getting Started
+### Getting Started
 
 ---
 
