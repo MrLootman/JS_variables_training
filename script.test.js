@@ -3,10 +3,11 @@ const {
   myDogsArray,
   myIdentity,
   mySecondDogsArray,
-  isTrue,
+  checkIfTrue,
   firstDog,
   division,
-} = require("./step1.js");
+  myIdentityBis
+} = require("./script.js");
 
 // Step 1 :
 
@@ -45,8 +46,8 @@ test("should reassign the second element of myDogsArray", () => {
 // Step 6 :
 
 test("should define isTrue as a boolean", () => {
-  expect(isTrue).toBe(false);
-  expect(typeof isTrue).toBe("boolean");
+  expect(checkIfTrue).toBe(false);
+  expect(typeof checkIfTrue).toBe("boolean");
 });
 
 // Step 7 :
@@ -60,3 +61,14 @@ test("should store the first dog of myDogsArray in a variable", () => {
 test("should define a variable that sums two numbers", () => {
   expect(division).toBe(2);
 });
+
+// Step 9 & 10 :
+
+test("Should check if myIdentityBis is an object with the fourth expected properties", () => {
+  const keys = Object.keys(myIdentityBis);
+  expect(keys).toHaveLength(4);
+  expect(keys).toEqual(
+    expect.arrayContaining(["firstname", "lastname", "age", "address"])
+  );
+  expect(myIdentityBis.address).toBe("United-States");
+})

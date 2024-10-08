@@ -17,7 +17,7 @@ Pour effectuer les exercices, ouvre le fichier `step1.js`, et tente de réaliser
 Une fois les différentes étapes réalisées, retourne dans ton terminal, et exécute la commande suivante :
 
 ```
-  jest
+  npm run test
 ```
 
 💡 C'est quoi Jest ❓
