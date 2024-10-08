@@ -12,7 +12,7 @@ npm install
 
 Cela aura pour conséquence d'installer un outil de test, dont nous parlerons juste après.
 
-Pour effectuer les exercices, ouvre le fichier `step1.js`, et tente de réaliser toutes les étapes en te laissant guider par les commentaires.
+Pour effectuer les exercices, ouvre le fichier `script.js`, et tente de réaliser toutes les étapes en te laissant guider par les commentaires.
 
 Une fois les différentes étapes réalisées, retourne dans ton terminal, et exécute la commande suivante :
 
@@ -22,4 +22,4 @@ Une fois les différentes étapes réalisées, retourne dans ton terminal, et ex
 
 💡 C'est quoi Jest ❓
 
-Un outil JavaScript permettant de tester des unités de code de manière isolée. En l'occurrence, les tests sont écrits dans le fichier `step1.test.js`.
+Un outil JavaScript permettant de tester des unités de code de manière isolée. En l'occurrence, les tests sont écrits dans le fichier `script.test.js`.
