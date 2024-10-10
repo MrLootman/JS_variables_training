@@ -30,6 +30,8 @@
 // ? 5. La ligne ci-dessous créé une copie du tableau myDogsArray.
 // * Changes le second chien présent dans le tableau mySecondDogsArray en Chihuahua.
 
+const mySecondDogsArray = structuredClone(myDogsArray);
+
 // Supprime cette ligne, et écris ton code 🔥
 
 // * 6. Créé une variable nommée checkIfTrue, dont la valeur sera égale à false.
